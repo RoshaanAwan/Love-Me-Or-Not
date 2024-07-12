@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+.bg-1 {
+  background-image: url(./My\ Pic.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.padding {
+  padding: 15px 0px 15px 10px;
+}
+.emoji {
+  display: flex;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.btn {
+  padding: 0px 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#yes {
+  /* position: relative;
+  left: 200px; */
+  width: 90px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #df5144;
+  transition: top 0.5, left 0.5s;
+  top: 10px;
+}
+#target {
+  position: absolute;
+  left: 150px;
+  top: 68px;
+  width: 90px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #1969cf;
+  transition: top 0.5, left 0.5s;
+}
